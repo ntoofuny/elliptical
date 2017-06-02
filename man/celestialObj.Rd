@@ -17,8 +17,10 @@ These data were constructed using information from NASA's Planetary Fact Sheet a
 planets
 }
 \description{
-A dataset containing the name, orbital radius and orbital eccentricity of
+A primary dataset containing the name, orbital radius and orbital eccentricity of
 the planets in the Solar System. I'm old school, so Pluto is still in there.
+
+A second dataset containing the name, orbital radius, orbital eccentricity, nationality and date launched of several space stations. 
 }
 \examples{
 plot(eccentricity ~ distance, data = planets)

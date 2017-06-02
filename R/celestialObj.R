@@ -23,6 +23,13 @@ if (FALSE) {
     distance = c(57.9, 108.2, 149.6, 227.9, 778.6, 1433.5, 2872.5, 4495.1, 5906.4),
     eccentricity = c(0.205, 0.007, 0.017, 0.094, 0.049, 0.057, 0.046, 0.011, 0.244)
   )
+  spaceStation <- data.frame(
+    name = c("International Space Station", "Tianggong 1", "Tianggong 2"),
+    distance= c(0.006806, 0.006731, 0.006671),
+      eccentricity = c(0.0004816, 0.0019962, 	0.0010105),
+    nationality = c("American", "Chinese", "Chinese"),
+    launch_date = c("1998/11/20", " 2011/09/29", "2016/09/15") 
+  )
   #
   # Convert from km to AU.
   #
